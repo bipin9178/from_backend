@@ -17,6 +17,7 @@
     "js": "^0.1.0",
     "jsonwebtoken": "^9.0.3",
     "mime-types": "^3.0.2",
+    "mongodb": "^7.0.0",
     "mongoose": "^8.20.2",
     "multer": "^2.0.2",
     "nodemailer": "^7.0.11",
