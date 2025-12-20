@@ -86,6 +86,7 @@ export const changePassword = async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 };
+
 export const forgetPassword = async (req, res) => {
   const { email } = req.body;
 
@@ -196,3 +197,4 @@ export const verifyResetToken = async (req, res) => {
     res.status(500).json({ expired: true });
   }
 };
+
