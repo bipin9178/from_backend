@@ -114,7 +114,7 @@ export const forgetPassword = async (req, res) => {
       },
     });
 
-    const resetUrl = `http://localhost:5173/reset-password/${token}`;
+    const resetUrl = `https://from-fronted.onrender.com/reset-password/${token}`;
 
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
